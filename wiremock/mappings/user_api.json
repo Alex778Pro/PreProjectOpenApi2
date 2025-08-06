@@ -1,0 +1,57 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/userDTO/1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "id": 1,
+          "username": "john_doe",
+          "email": "john@example.com",
+          "posts": [
+            {
+              "id": 101,
+              "title": "First Post",
+              "content": "Content of first post"
+            },
+            {
+              "id": 102,
+              "title": "Second Post",
+              "content": "Content of second post"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/userDTO/2"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "id": 2,
+          "username": "jane_doe",
+          "email": "jane@example.com",
+          "posts": [
+            {
+              "id": 201,
+              "title": "Jane's First Post",
+              "content": "Jane's post content"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
