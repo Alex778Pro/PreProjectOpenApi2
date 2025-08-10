@@ -1,4 +1,4 @@
-package com.example.preprojectopenapi2;
+package com.example.preprojectopenapi2.config;
 
 import com.example.preprojectopenapi2.exeption.CustomErrorDecoder;
 import org.springframework.context.annotation.Bean;

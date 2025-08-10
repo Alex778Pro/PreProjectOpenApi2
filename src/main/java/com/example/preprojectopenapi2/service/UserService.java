@@ -22,7 +22,6 @@ public class UserService {
         } catch (ResponseStatusException e) {
             throw e;
         }
-
     }
 
     public List<PostDTO> getUserPosts(Long userId) {
@@ -33,5 +32,4 @@ public class UserService {
             throw e;
         }
     }
-
 }

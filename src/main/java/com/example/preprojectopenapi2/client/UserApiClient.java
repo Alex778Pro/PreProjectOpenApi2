@@ -1,6 +1,6 @@
 package com.example.preprojectopenapi2.client;
 
-import com.example.preprojectopenapi2.FeignConfig;
+import com.example.preprojectopenapi2.config.FeignConfig;
 import com.example.preprojectopenapi2.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -7,8 +7,6 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
 public class UserDTO {
     private Long id;
     private String username;
